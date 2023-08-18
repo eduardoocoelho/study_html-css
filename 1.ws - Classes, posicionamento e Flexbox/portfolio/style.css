@@ -20,11 +20,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
+    margin: 10% 15%;
 }
 
 .container__content {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .container__content__title {
