@@ -1,0 +1,26 @@
+:root{
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #C0C0C0;
+    --button-color: #167BF7;
+    --background-color: #00030C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+.main{
+    background-image: url("../assets/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
