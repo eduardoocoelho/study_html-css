@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 :root{
     --primary-text-color: #FFFFFF;
     --secondary-text-color: #C0C0C0;
     --button-color: #167BF7;
     --background-color: #00030C;
+    --main-font: 'Inter';
 }
 
 *{
@@ -13,14 +16,84 @@
 body{
     background-color: var(--background-color);
     color: var(--primary-text-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-.main{
+.header{
     background-image: url("../assets/img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__div{
+    margin: 0 6rem;
+}
+
+.container__title{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__img{
+    margin: 1rem 0 2rem 0;
+}
+
+.container__link{
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--primary-text-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.container__link-secondary{
+    background-color: transparent;
+    border: 1px solid var(--primary-text-color);
+}
+
+.container__warning{
+    font-size: 0.75rem;
+    color: var(--secondary-text-color);
+}
+
+.main{
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.main__img{
+    width: 80%;
+}
+
+.container__description__title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.container__description__text{
+    font-size: 1rem;
+    color: #F9F9F9;
+}
+
+.container__description{
+    padding: 2rem;
+}
+
+.container__description__link{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem;
 }
