@@ -97,3 +97,55 @@ body{
     display: inline-block;
     padding: 1rem;
 }
+
+
+.devices__title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.devices__area{
+    display: flex;
+    justify-content: center;
+}
+
+.devices__area__tv,
+.devices__area__pc,
+.devices__area__cell{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer{
+    text-align: center;
+    margin: 6rem;
+}
+
+.footer__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.footer__list__item a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__text{
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-text-color);
+}
+
+.footer__list__item a:hover{
+    color: var(--button-color);
+}
