@@ -1,0 +1,53 @@
+.card{
+    border-radius: 0.625rem;
+    background: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1.25rem 1.5rem;
+    padding: 1rem;
+}
+
+.card__description{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.description img{
+    margin: 0.8rem 0;
+}
+
+.description__title{
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.description__title-book{
+    color: var(--blue);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.description__text{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 0.875rem;
+}
+
+.card__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
