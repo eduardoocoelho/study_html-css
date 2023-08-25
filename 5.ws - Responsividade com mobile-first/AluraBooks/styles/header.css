@@ -56,3 +56,51 @@
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
+
+.container__title{
+    display: none;
+}
+
+.options{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .container__title,
+    .container__title--bold{
+        font-family: var(--title-font);
+        font-size: 1.875rem;
+        display: inline-block;
+    }
+
+    .container__title{
+        font-weight: 400;
+        font-size: 1.875rem;
+    }
+
+    .container__title--bold{
+        font-weight: 700;
+    }
+
+    .options{
+        display: flex;
+    }
+
+    .options__item{
+        padding: 2rem;
+        text-transform: uppercase;
+    }
+
+    .options__link{
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .favorites{
+        display: none;
+    }
+
+    .header__menu{
+        display: none;
+    }
+}

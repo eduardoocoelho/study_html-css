@@ -6,6 +6,7 @@
 @import url(contact.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
     --background-color: #EBECEE;
@@ -14,6 +15,8 @@
     --blue-fade: linear-gradient(160deg, #002F52 0%, #326589 100%);
     --blue: #002F52;
     --font: 'Poppins';
+    --title-font: 'Josefin Sans';
+    --black: #000000;
 }
 
 body {
