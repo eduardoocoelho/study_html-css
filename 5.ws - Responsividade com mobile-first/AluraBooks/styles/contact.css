@@ -56,3 +56,15 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .contact{
+        padding: 3rem 20vw;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .contact__description{
+        width: 40%;
+    }
+}

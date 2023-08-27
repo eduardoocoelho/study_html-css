@@ -41,3 +41,13 @@
         margin-left: 7rem;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .topics{
+        padding: 3rem 25vw;
+    }
+
+    .topics__title{
+        font-size: 2rem;
+    }
+}

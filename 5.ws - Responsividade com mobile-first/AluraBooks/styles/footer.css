@@ -42,3 +42,14 @@ hr{
         color: var(--gray);
     }
 }
+
+@media screen and (min-width: 1728px){
+    .footer__list{
+        border-left: 1px solid var(--light-gray);
+        padding-left: 1rem;
+    }
+
+    .footer{
+        padding: 3rem 0;
+    }
+}

@@ -63,6 +63,14 @@
     display: none;
 }
 
+.container__button:checked~.container__label > .header__menu{
+    background-image: url(../assets/img/Menu\ Aberto.svg);
+}
+
+.container__button:checked~.container__label{
+    background: var(--blue);
+}
+
 @media screen and (min-width: 1024px){
     .container__title,
     .container__title--bold{
@@ -109,6 +117,20 @@
 
     .options__button{
         display: none;
+    }
+
+    .options__button:checked~.options__label > .options__item{
+        background: var(--blue-fade);
+        color: var(--white);
+    }
+
+    .menu__list__item:hover{
+        background: var(--blue-fade);
+    }
+
+    .menu__list__item:hover > .menu__list__item__link{
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
     }
 }
 
