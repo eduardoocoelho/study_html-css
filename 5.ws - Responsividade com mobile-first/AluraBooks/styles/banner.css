@@ -37,3 +37,15 @@
     background-position: 1rem;
 }
 
+@media screen and (min-width: 1024px){
+    .banner__title{
+        font-size: 2.25rem;
+    }
+    .banner__search{
+        width: 50%;
+    }
+
+    .banner__search::placeholder{
+        background-position: 5rem;
+    }
+}
