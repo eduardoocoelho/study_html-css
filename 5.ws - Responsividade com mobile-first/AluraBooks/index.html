@@ -68,9 +68,17 @@
         </ul>
 
         <div class=" container">
-            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus favoritos" class="container__img favorites"></a>
-            <a href="#"><img src="assets/img/Sacola.svg" class="container__img" alt="Carrinho de compras"></a>
-            <a href="#"><img src="assets/img/Usuário.svg" class="container__img" alt="Meu perfil"></a>
+            <a href="#">
+                <img src="assets/img/Favoritos.svg" alt="Meus favoritos" class="container__img favorites">
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/img/Sacola.svg" class="container__img" alt="Carrinho de compras">
+                <p class="container__description">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/img/Usuário.svg" class="container__img" alt="Meu perfil">
+                <p class="container__description">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -81,58 +89,63 @@
             <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
         </section>
 
+
         <section class="carousel">
             <h2 class="carousel__title">Últimos lançamentos</h2>
 
-            <!-- Slider main container -->
-            <div class="swiper">
+            <div class="carousel__container">
+                <!-- Slider main container -->
+                <div class="swiper">
 
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="assets/img/ApacheKafka.svg" alt="Livro sobre ApacheKafka da AluraBooks">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/img/ApacheKafka.svg" alt="Livro sobre ApacheKafka da AluraBooks">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Construct2.svg" alt="Livro sobre Construct da AluraBooks">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Liderança.svg" alt="Livro sobre Liderança da AluraBooks">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Nodejs.svg" alt="Livro sobre NodeJs da AluraBooks">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Portugol.svg" alt="Livro sobre Portugol da AluraBooks">
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/Construct2.svg" alt="Livro sobre Construct da AluraBooks">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/Liderança.svg" alt="Livro sobre Liderança da AluraBooks">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/Nodejs.svg" alt="Livro sobre NodeJs da AluraBooks">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/Portugol.svg" alt="Livro sobre Portugol da AluraBooks">
-                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </section>
+                <div class="card">
+                    <div class="card__description">
+                        <div class="description">
+                            <h3 class="description__title">Talvez você também se interesse por...</h3>
+                            <h2 class="description__title-book">Angular 11 e Firebase</h2>
+                            <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.
+                            </p>
+                        </div>
+                        <img src="assets/img/Perfil-escritora 2.svg" alt="Logo do Angular" class="description__img">
+                    </div>
 
-        <section class="card">
-            <div class="card__description">
-                <div class="description">
-                    <h3 class="description__title">Talvez você também se interesse por...</h3>
-                    <h2 class="description__title-book">Angular 11 e Firebase</h2>
-                    <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="card__buttons">
+                        <ul class="buttons">
+                            <li class="buttons__item"><img src="assets/img/Favoritos.svg" alt="Favoritar Livro"></li>
+                            <li class="buttons__item"><img src="assets/img/Sacola.svg"
+                                    alt="Adicionar ao carrinho de compras">
+                            </li>
+                        </ul>
+                        <a href="#" class="link">Saiba mais</a>
+                    </div>
                 </div>
-                <img src="assets/img/Perfil-escritora 2.svg" alt="Logo do Angular" class="description__img">
-            </div>
-
-            <div class="card__buttons">
-                <ul class="buttons">
-                    <li class="buttons__item"><img src="assets/img/Favoritos.svg" alt="Favoritar Livro"></li>
-                    <li class="buttons__item"><img src="assets/img/Sacola.svg" alt="Adicionar ao carrinho de compras">
-                    </li>
-                </ul>
-                <a href="#" class="link">Saiba mais</a>
             </div>
         </section>
 
@@ -231,7 +244,7 @@
             <input type="email" class="contact__input" placeholder="Cadastre seu e-mail">
         </section>
 
-        <hr/>
+        <hr />
     </main>
 
     <footer class="footer">
